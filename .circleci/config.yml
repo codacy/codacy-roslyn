@@ -1,0 +1,67 @@
+version: 2.1
+
+orbs:
+  codacy: codacy/base@5.1.1
+  codacy_plugins_test: codacy/plugins-test@0.14.6
+
+workflows:
+  version: 2
+  compile_test_deploy:
+    jobs:
+      - codacy/checkout_and_version:
+          write_sbt_version: true
+      - codacy/sbt:
+          name: check_fmt_and_compile
+          persist_to_workspace: true
+          cmd: sbt scalafmt::test test:scalafmt::test sbt:scalafmt::test test:compile
+          requires:
+            - codacy/checkout_and_version
+      - codacy/sbt:
+          name: test
+          cmd: |
+            sbt test
+          requires:
+            - check_fmt_and_compile
+      - codacy/sbt:
+          name: package_artifacts
+          persist_to_workspace: true
+          cmd: |
+            sbt graalvm-native-image:packageBin assembly
+
+            mkdir -p ~/workdir/artifacts/
+            mv target/scala-2.13/codacy-staticcheck-assembly-$(cat .version).jar ~/workdir/artifacts/codacy-staticcheck-$(cat .version).jar
+            mv target/graalvm-native-image/codacy-staticcheck ~/workdir/artifacts/codacy-staticcheck-$(cat .version)
+          requires:
+            - check_fmt_and_compile
+      - codacy/shell:
+          name: docker_publish_local
+          cmd: |
+            docker build -t codacy-staticcheck .
+            docker save --output docker-image.tar $CIRCLE_PROJECT_REPONAME:latest
+          persist_to_workspace: true
+          requires:
+            - package_artifacts
+      - codacy_plugins_test/run:
+          name: plugins_test
+          run_pattern_tests: false
+          requires:
+            - docker_publish_local
+      - codacy/publish_docker:
+          name: publish_dockerhub
+          filters:
+            branches:
+              only:
+                - master
+          context: CodacyAWS
+          requires:
+            - plugins_test
+      - codacy/publish_ghr:
+          name: publish_ghr
+          path: ~/workdir/artifacts/
+          filters:
+            branches:
+              only:
+                - master
+          context: CodacyGitHub
+          requires:
+            - plugins_test

@@ -1,0 +1,636 @@
+{
+  "name": "staticcheck",
+  "version": "2020.1.6",
+  "patterns": [
+    {
+      "patternId": "S1000",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "S1001",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "S1002",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "S1003",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "S1004",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "S1005",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "S1006",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "S1007",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "S1008",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "S1009",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "S1010",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "S1011",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "S1012",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "S1016",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "S1017",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "S1018",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "S1019",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "S1020",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "S1021",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "S1023",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "S1024",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "S1025",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "S1028",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "S1029",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "S1030",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "S1031",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "S1032",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "S1033",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "S1034",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "S1035",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "S1036",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "S1037",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "S1038",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "S1039",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "SA1000",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "SA1001",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "SA1002",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "SA1003",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "SA1004",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "SA1005",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "SA1006",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "SA1007",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "SA1008",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "SA1010",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "SA1011",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "SA1012",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "SA1013",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "SA1014",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "SA1015",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "SA1016",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "SA1017",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "SA1018",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "SA1019",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "SA1020",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "SA1021",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "SA1023",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "SA1024",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "SA1025",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "SA1026",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "SA1027",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "SA1028",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "SA1029",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "SA2000",
+      "level": "Error",
+      "category": "ErrorProne"
+    },
+    {
+      "patternId": "SA2001",
+      "level": "Error",
+      "category": "ErrorProne"
+    },
+    {
+      "patternId": "SA2002",
+      "level": "Error",
+      "category": "ErrorProne"
+    },
+    {
+      "patternId": "SA2003",
+      "level": "Error",
+      "category": "ErrorProne"
+    },
+    {
+      "patternId": "SA3000",
+      "level": "Warning",
+      "category": "ErrorProne"
+    },
+    {
+      "patternId": "SA3001",
+      "level": "Warning",
+      "category": "ErrorProne"
+    },
+    {
+      "patternId": "SA4000",
+      "level": "Info",
+      "category": "UnusedCode"
+    },
+    {
+      "patternId": "SA4001",
+      "level": "Info",
+      "category": "UnusedCode"
+    },
+    {
+      "patternId": "SA4003",
+      "level": "Info",
+      "category": "UnusedCode"
+    },
+    {
+      "patternId": "SA4004",
+      "level": "Info",
+      "category": "UnusedCode"
+    },
+    {
+      "patternId": "SA4006",
+      "level": "Info",
+      "category": "UnusedCode"
+    },
+    {
+      "patternId": "SA4008",
+      "level": "Info",
+      "category": "UnusedCode"
+    },
+    {
+      "patternId": "SA4009",
+      "level": "Info",
+      "category": "UnusedCode"
+    },
+    {
+      "patternId": "SA4010",
+      "level": "Info",
+      "category": "UnusedCode"
+    },
+    {
+      "patternId": "SA4011",
+      "level": "Info",
+      "category": "UnusedCode"
+    },
+    {
+      "patternId": "SA4012",
+      "level": "Info",
+      "category": "UnusedCode"
+    },
+    {
+      "patternId": "SA4013",
+      "level": "Info",
+      "category": "UnusedCode"
+    },
+    {
+      "patternId": "SA4014",
+      "level": "Info",
+      "category": "UnusedCode"
+    },
+    {
+      "patternId": "SA4015",
+      "level": "Info",
+      "category": "UnusedCode"
+    },
+    {
+      "patternId": "SA4016",
+      "level": "Info",
+      "category": "UnusedCode"
+    },
+    {
+      "patternId": "SA4017",
+      "level": "Info",
+      "category": "UnusedCode"
+    },
+    {
+      "patternId": "SA4018",
+      "level": "Info",
+      "category": "UnusedCode"
+    },
+    {
+      "patternId": "SA4019",
+      "level": "Info",
+      "category": "UnusedCode"
+    },
+    {
+      "patternId": "SA4020",
+      "level": "Info",
+      "category": "UnusedCode"
+    },
+    {
+      "patternId": "SA4021",
+      "level": "Info",
+      "category": "UnusedCode"
+    },
+    {
+      "patternId": "SA4022",
+      "level": "Info",
+      "category": "UnusedCode"
+    },
+    {
+      "patternId": "SA5000",
+      "level": "Warning",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "SA5001",
+      "level": "Warning",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "SA5002",
+      "level": "Warning",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "SA5003",
+      "level": "Warning",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "SA5004",
+      "level": "Warning",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "SA5005",
+      "level": "Warning",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "SA5007",
+      "level": "Warning",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "SA5008",
+      "level": "Warning",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "SA5009",
+      "level": "Warning",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "SA5010",
+      "level": "Warning",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "SA5011",
+      "level": "Warning",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "SA6000",
+      "level": "Warning",
+      "category": "Performance"
+    },
+    {
+      "patternId": "SA6001",
+      "level": "Warning",
+      "category": "Performance"
+    },
+    {
+      "patternId": "SA6002",
+      "level": "Warning",
+      "category": "Performance"
+    },
+    {
+      "patternId": "SA6003",
+      "level": "Warning",
+      "category": "Performance"
+    },
+    {
+      "patternId": "SA6005",
+      "level": "Warning",
+      "category": "Performance"
+    },
+    {
+      "patternId": "SA9001",
+      "level": "Error",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "SA9002",
+      "level": "Error",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "SA9003",
+      "level": "Info",
+      "category": "UnusedCode"
+    },
+    {
+      "patternId": "SA9004",
+      "level": "Error",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "SA9005",
+      "level": "Error",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "ST1000",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "ST1001",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "ST1003",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "ST1005",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "ST1006",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "ST1008",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "ST1011",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "ST1012",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "ST1013",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "ST1015",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "ST1016",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "ST1017",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "ST1018",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "ST1019",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "ST1020",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "ST1021",
+      "level": "Info",
+      "category": "CodeStyle"
+    },
+    {
+      "patternId": "ST1022",
+      "level": "Info",
+      "category": "CodeStyle"
+    }
+  ]
+}

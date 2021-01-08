@@ -1,0 +1,632 @@
+[
+  {
+    "patternId": "S1000",
+    "title": "Use plain channel send or receive instead of single-case select",
+    "description": "Use plain channel send or receive instead of single-case select"
+  },
+  {
+    "patternId": "S1001",
+    "title": "Replace for loop with call to copy",
+    "description": "Replace for loop with call to copy"
+  },
+  {
+    "patternId": "S1002",
+    "title": "Omit comparison with boolean constant",
+    "description": "Omit comparison with boolean constant"
+  },
+  {
+    "patternId": "S1003",
+    "title": "Replace call to strings.Index with strings.Contains",
+    "description": "Replace call to strings.Index with strings.Contains"
+  },
+  {
+    "patternId": "S1004",
+    "title": "Replace call to bytes.Compare with bytes.Equal",
+    "description": "Replace call to bytes.Compare with bytes.Equal"
+  },
+  {
+    "patternId": "S1005",
+    "title": "Drop unnecessary use of the blank identifier",
+    "description": "Drop unnecessary use of the blank identifier"
+  },
+  {
+    "patternId": "S1006",
+    "title": "Use for { ... } for infinite loops",
+    "description": "Use for { ... } for infinite loops"
+  },
+  {
+    "patternId": "S1007",
+    "title": "Simplify regular expression by using raw string literal",
+    "description": "Simplify regular expression by using raw string literal"
+  },
+  {
+    "patternId": "S1008",
+    "title": "Simplify returning boolean expression",
+    "description": "Simplify returning boolean expression"
+  },
+  {
+    "patternId": "S1009",
+    "title": "Omit redundant nil check on slices",
+    "description": "Omit redundant nil check on slices"
+  },
+  {
+    "patternId": "S1010",
+    "title": "Omit default slice index",
+    "description": "Omit default slice index"
+  },
+  {
+    "patternId": "S1011",
+    "title": "Use a single append to concatenate two slices",
+    "description": "Use a single append to concatenate two slices"
+  },
+  {
+    "patternId": "S1012",
+    "title": "Replace time.Now().Sub(x) with time.Since(x)",
+    "description": "Replace time.Now().Sub(x) with time.Since(x)"
+  },
+  {
+    "patternId": "S1016",
+    "title": "Use a type conversion instead of manually copying struct fields",
+    "description": "Use a type conversion instead of manually copying struct fields"
+  },
+  {
+    "patternId": "S1017",
+    "title": "Replace manual trimming with strings.TrimPrefix",
+    "description": "Replace manual trimming with strings.TrimPrefix"
+  },
+  {
+    "patternId": "S1018",
+    "title": "Use copy for sliding elements",
+    "description": "Use copy for sliding elements"
+  },
+  {
+    "patternId": "S1019",
+    "title": "Simplify make call by omitting redundant arguments",
+    "description": "Simplify make call by omitting redundant arguments"
+  },
+  {
+    "patternId": "S1020",
+    "title": "Omit redundant nil check in type assertion",
+    "description": "Omit redundant nil check in type assertion"
+  },
+  {
+    "patternId": "S1021",
+    "title": "Merge variable declaration and assignment",
+    "description": "Merge variable declaration and assignment"
+  },
+  {
+    "patternId": "S1023",
+    "title": "Omit redundant control flow",
+    "description": "Omit redundant control flow"
+  },
+  {
+    "patternId": "S1024",
+    "title": "Replace x.Sub(time.Now()) with time.Until(x)",
+    "description": "Replace x.Sub(time.Now()) with time.Until(x)"
+  },
+  {
+    "patternId": "S1025",
+    "title": "Don't use fmt.Sprintf(\"%s\", x) unnecessarily",
+    "description": "Don't use fmt.Sprintf(\"%s\", x) unnecessarily"
+  },
+  {
+    "patternId": "S1028",
+    "title": "Simplify error construction with fmt.Errorf",
+    "description": "Simplify error construction with fmt.Errorf"
+  },
+  {
+    "patternId": "S1029",
+    "title": "Range over the string directly",
+    "description": "Range over the string directly"
+  },
+  {
+    "patternId": "S1030",
+    "title": "Use bytes.Buffer.String or bytes.Buffer.Bytes",
+    "description": "Use bytes.Buffer.String or bytes.Buffer.Bytes"
+  },
+  {
+    "patternId": "S1031",
+    "title": "Omit redundant nil check around loop",
+    "description": "Omit redundant nil check around loop"
+  },
+  {
+    "patternId": "S1032",
+    "title": "Use sort.Ints(x), sort.Float64s(x), and sort.Strings(x)",
+    "description": "Use sort.Ints(x), sort.Float64s(x), and sort.Strings(x)"
+  },
+  {
+    "patternId": "S1033",
+    "title": "Unnecessary guard around call to delete",
+    "description": "Unnecessary guard around call to delete"
+  },
+  {
+    "patternId": "S1034",
+    "title": "Use result of type assertion to simplify cases",
+    "description": "Use result of type assertion to simplify cases"
+  },
+  {
+    "patternId": "S1035",
+    "title": "Redundant call to net/http.CanonicalHeaderKey in method call on net/http.Header",
+    "description": "Redundant call to net/http.CanonicalHeaderKey in method call on net/http.Header"
+  },
+  {
+    "patternId": "S1036",
+    "title": "Unnecessary guard around map access",
+    "description": "Unnecessary guard around map access"
+  },
+  {
+    "patternId": "S1037",
+    "title": "Elaborate way of sleeping",
+    "description": "Elaborate way of sleeping"
+  },
+  {
+    "patternId": "S1038",
+    "title": "Unnecessarily complex way of printing formatted string",
+    "description": "Unnecessarily complex way of printing formatted string"
+  },
+  {
+    "patternId": "S1039",
+    "title": "Unnecessary use of fmt.Sprint",
+    "description": "Unnecessary use of fmt.Sprint"
+  },
+  {
+    "patternId": "SA1000",
+    "title": "Invalid regular expression",
+    "description": "Invalid regular expression"
+  },
+  {
+    "patternId": "SA1001",
+    "title": "Invalid template",
+    "description": "Invalid template"
+  },
+  {
+    "patternId": "SA1002",
+    "title": "Invalid format in time.Parse",
+    "description": "Invalid format in time.Parse"
+  },
+  {
+    "patternId": "SA1003",
+    "title": "Unsupported argument to functions in encoding/binary",
+    "description": "Unsupported argument to functions in encoding/binary"
+  },
+  {
+    "patternId": "SA1004",
+    "title": "Suspiciously small untyped constant in time.Sleep",
+    "description": "Suspiciously small untyped constant in time.Sleep"
+  },
+  {
+    "patternId": "SA1005",
+    "title": "Invalid first argument to exec.Command",
+    "description": "Invalid first argument to exec.Command"
+  },
+  {
+    "patternId": "SA1006",
+    "title": "Printf with dynamic first argument and no further arguments",
+    "description": "Printf with dynamic first argument and no further arguments"
+  },
+  {
+    "patternId": "SA1007",
+    "title": "Invalid URL in net/url.Parse",
+    "description": "Invalid URL in net/url.Parse"
+  },
+  {
+    "patternId": "SA1008",
+    "title": "Non-canonical key in http.Header map",
+    "description": "Non-canonical key in http.Header map"
+  },
+  {
+    "patternId": "SA1010",
+    "title": "(*regexp.Regexp).FindAll called with n == 0, which will always return zero results",
+    "description": "(*regexp.Regexp).FindAll called with n == 0, which will always return zero results"
+  },
+  {
+    "patternId": "SA1011",
+    "title": "Various methods in the strings package expect valid UTF-8, but invalid input is provided",
+    "description": "Various methods in the strings package expect valid UTF-8, but invalid input is provided"
+  },
+  {
+    "patternId": "SA1012",
+    "title": "A nil context.Context is being passed to a function, consider using context.TODO instead",
+    "description": "A nil context.Context is being passed to a function, consider using context.TODO instead"
+  },
+  {
+    "patternId": "SA1013",
+    "title": "io.Seeker.Seek is being called with the whence constant as the first argument, but it should be the second",
+    "description": "io.Seeker.Seek is being called with the whence constant as the first argument, but it should be the second"
+  },
+  {
+    "patternId": "SA1014",
+    "title": "Non-pointer value passed to Unmarshal or Decode",
+    "description": "Non-pointer value passed to Unmarshal or Decode"
+  },
+  {
+    "patternId": "SA1015",
+    "title": "Using time.Tick in a way that will leak. Consider using time.NewTicker, and only use time.Tick in tests, commands and endless functions",
+    "description": "Using time.Tick in a way that will leak. Consider using time.NewTicker, and only use time.Tick in tests, commands and endless functions"
+  },
+  {
+    "patternId": "SA1016",
+    "title": "Trapping a signal that cannot be trapped",
+    "description": "Trapping a signal that cannot be trapped"
+  },
+  {
+    "patternId": "SA1017",
+    "title": "Channels used with os/signal.Notify should be buffered",
+    "description": "Channels used with os/signal.Notify should be buffered"
+  },
+  {
+    "patternId": "SA1018",
+    "title": "strings.Replace called with n == 0, which does nothing",
+    "description": "strings.Replace called with n == 0, which does nothing"
+  },
+  {
+    "patternId": "SA1019",
+    "title": "Using a deprecated function, variable, constant or field",
+    "description": "Using a deprecated function, variable, constant or field"
+  },
+  {
+    "patternId": "SA1020",
+    "title": "Using an invalid host:port pair with a net.Listen-related function",
+    "description": "Using an invalid host:port pair with a net.Listen-related function"
+  },
+  {
+    "patternId": "SA1021",
+    "title": "Using bytes.Equal to compare two net.IP",
+    "description": "Using bytes.Equal to compare two net.IP"
+  },
+  {
+    "patternId": "SA1023",
+    "title": "Modifying the buffer in an io.Writer implementation",
+    "description": "Modifying the buffer in an io.Writer implementation"
+  },
+  {
+    "patternId": "SA1024",
+    "title": "A string cutset contains duplicate characters",
+    "description": "A string cutset contains duplicate characters"
+  },
+  {
+    "patternId": "SA1025",
+    "title": "It is not possible to use (*time.Timer).Reset's return value correctly",
+    "description": "It is not possible to use (*time.Timer).Reset's return value correctly"
+  },
+  {
+    "patternId": "SA1026",
+    "title": "Cannot marshal channels or functions",
+    "description": "Cannot marshal channels or functions"
+  },
+  {
+    "patternId": "SA1027",
+    "title": "Atomic access to 64-bit variable must be 64-bit aligned",
+    "description": "Atomic access to 64-bit variable must be 64-bit aligned"
+  },
+  {
+    "patternId": "SA1028",
+    "title": "sort.Slice can only be used on slices",
+    "description": "sort.Slice can only be used on slices"
+  },
+  {
+    "patternId": "SA1029",
+    "title": "Inappropriate key in call to context.WithValue",
+    "description": "Inappropriate key in call to context.WithValue"
+  },
+  {
+    "patternId": "SA2000",
+    "title": "sync.WaitGroup.Add called inside the goroutine, leading to a race condition",
+    "description": "sync.WaitGroup.Add called inside the goroutine, leading to a race condition"
+  },
+  {
+    "patternId": "SA2001",
+    "title": "Empty critical section, did you mean to defer the unlock?",
+    "description": "Empty critical section, did you mean to defer the unlock?"
+  },
+  {
+    "patternId": "SA2002",
+    "title": "Called testing.T.FailNow or SkipNow in a goroutine, which isn't allowed",
+    "description": "Called testing.T.FailNow or SkipNow in a goroutine, which isn't allowed"
+  },
+  {
+    "patternId": "SA2003",
+    "title": "Deferred Lock right after locking, likely meant to defer Unlock instead",
+    "description": "Deferred Lock right after locking, likely meant to defer Unlock instead"
+  },
+  {
+    "patternId": "SA3000",
+    "title": "TestMain doesn't call os.Exit, hiding test failures",
+    "description": "TestMain doesn't call os.Exit, hiding test failures"
+  },
+  {
+    "patternId": "SA3001",
+    "title": "Assigning to b.N in benchmarks distorts the results",
+    "description": "Assigning to b.N in benchmarks distorts the results"
+  },
+  {
+    "patternId": "SA4000",
+    "title": "Boolean expression has identical expressions on both sides",
+    "description": "Boolean expression has identical expressions on both sides"
+  },
+  {
+    "patternId": "SA4001",
+    "title": "&*x gets simplified to x, it does not copy x",
+    "description": "&*x gets simplified to x, it does not copy x"
+  },
+  {
+    "patternId": "SA4003",
+    "title": "Comparing unsigned values against negative values is pointless",
+    "description": "Comparing unsigned values against negative values is pointless"
+  },
+  {
+    "patternId": "SA4004",
+    "title": "The loop exits unconditionally after one iteration",
+    "description": "The loop exits unconditionally after one iteration"
+  },
+  {
+    "patternId": "SA4006",
+    "title": "A value assigned to a variable is never read before being overwritten. Forgotten error check or dead code?",
+    "description": "A value assigned to a variable is never read before being overwritten. Forgotten error check or dead code?"
+  },
+  {
+    "patternId": "SA4008",
+    "title": "The variable in the loop condition never changes, are you incrementing the wrong variable?",
+    "description": "The variable in the loop condition never changes, are you incrementing the wrong variable?"
+  },
+  {
+    "patternId": "SA4009",
+    "title": "A function argument is overwritten before its first use",
+    "description": "A function argument is overwritten before its first use"
+  },
+  {
+    "patternId": "SA4010",
+    "title": "The result of append will never be observed anywhere",
+    "description": "The result of append will never be observed anywhere"
+  },
+  {
+    "patternId": "SA4011",
+    "title": "Break statement with no effect. Did you mean to break out of an outer loop?",
+    "description": "Break statement with no effect. Did you mean to break out of an outer loop?"
+  },
+  {
+    "patternId": "SA4012",
+    "title": "Comparing a value against NaN even though no value is equal to NaN",
+    "description": "Comparing a value against NaN even though no value is equal to NaN"
+  },
+  {
+    "patternId": "SA4013",
+    "title": "Negating a boolean twice (!!b) is the same as writing b. This is either redundant, or a typo.",
+    "description": "Negating a boolean twice (!!b) is the same as writing b. This is either redundant, or a typo."
+  },
+  {
+    "patternId": "SA4014",
+    "title": "An if/else if chain has repeated conditions and no side-effects; if the condition didn't match the first time, it won't match the second time, either",
+    "description": "An if/else if chain has repeated conditions and no side-effects; if the condition didn't match the first time, it won't match the second time, either"
+  },
+  {
+    "patternId": "SA4015",
+    "title": "Calling functions like math.Ceil on floats converted from integers doesn't do anything useful",
+    "description": "Calling functions like math.Ceil on floats converted from integers doesn't do anything useful"
+  },
+  {
+    "patternId": "SA4016",
+    "title": "Certain bitwise operations, such as x ^ 0, do not do anything useful",
+    "description": "Certain bitwise operations, such as x ^ 0, do not do anything useful"
+  },
+  {
+    "patternId": "SA4017",
+    "title": "A pure function's return value is discarded, making the call pointless",
+    "description": "A pure function's return value is discarded, making the call pointless"
+  },
+  {
+    "patternId": "SA4018",
+    "title": "Self-assignment of variables",
+    "description": "Self-assignment of variables"
+  },
+  {
+    "patternId": "SA4019",
+    "title": "Multiple, identical build constraints in the same file",
+    "description": "Multiple, identical build constraints in the same file"
+  },
+  {
+    "patternId": "SA4020",
+    "title": "Unreachable case clause in a type switch",
+    "description": "Unreachable case clause in a type switch"
+  },
+  {
+    "patternId": "SA4021",
+    "title": "x = append(y) is equivalent to x = y",
+    "description": "x = append(y) is equivalent to x = y"
+  },
+  {
+    "patternId": "SA4022",
+    "title": "Comparing the address of a variable against nil",
+    "description": "Comparing the address of a variable against nil"
+  },
+  {
+    "patternId": "SA5000",
+    "title": "Assignment to nil map",
+    "description": "Assignment to nil map"
+  },
+  {
+    "patternId": "SA5001",
+    "title": "Defering Close before checking for a possible error",
+    "description": "Defering Close before checking for a possible error"
+  },
+  {
+    "patternId": "SA5002",
+    "title": "The empty for loop (for {}) spins and can block the scheduler",
+    "description": "The empty for loop (for {}) spins and can block the scheduler"
+  },
+  {
+    "patternId": "SA5003",
+    "title": "Defers in infinite loops will never execute",
+    "description": "Defers in infinite loops will never execute"
+  },
+  {
+    "patternId": "SA5004",
+    "title": "for { select { ... with an empty default branch spins",
+    "description": "for { select { ... with an empty default branch spins"
+  },
+  {
+    "patternId": "SA5005",
+    "title": "The finalizer references the finalized object, preventing garbage collection",
+    "description": "The finalizer references the finalized object, preventing garbage collection"
+  },
+  {
+    "patternId": "SA5007",
+    "title": "Infinite recursive call",
+    "description": "Infinite recursive call"
+  },
+  {
+    "patternId": "SA5008",
+    "title": "Invalid struct tag",
+    "description": "Invalid struct tag"
+  },
+  {
+    "patternId": "SA5009",
+    "title": "Invalid Printf call",
+    "description": "Invalid Printf call"
+  },
+  {
+    "patternId": "SA5010",
+    "title": "Impossible type assertion",
+    "description": "Impossible type assertion"
+  },
+  {
+    "patternId": "SA5011",
+    "title": "Possible nil pointer dereference",
+    "description": "Possible nil pointer dereference"
+  },
+  {
+    "patternId": "SA6000",
+    "title": "Using regexp.Match or related in a loop, should use regexp.Compile",
+    "description": "Using regexp.Match or related in a loop, should use regexp.Compile"
+  },
+  {
+    "patternId": "SA6001",
+    "title": "Missing an optimization opportunity when indexing maps by byte slices",
+    "description": "Missing an optimization opportunity when indexing maps by byte slices"
+  },
+  {
+    "patternId": "SA6002",
+    "title": "Storing non-pointer values in sync.Pool allocates memory",
+    "description": "Storing non-pointer values in sync.Pool allocates memory"
+  },
+  {
+    "patternId": "SA6003",
+    "title": "Converting a string to a slice of runes before ranging over it",
+    "description": "Converting a string to a slice of runes before ranging over it"
+  },
+  {
+    "patternId": "SA6005",
+    "title": "Inefficient string comparison with strings.ToLower or strings.ToUpper",
+    "description": "Inefficient string comparison with strings.ToLower or strings.ToUpper"
+  },
+  {
+    "patternId": "SA9001",
+    "title": "Defers in range loops may not run when you expect them to",
+    "description": "Defers in range loops may not run when you expect them to"
+  },
+  {
+    "patternId": "SA9002",
+    "title": "Using a non-octal os.FileMode that looks like it was meant to be in octal.",
+    "description": "Using a non-octal os.FileMode that looks like it was meant to be in octal."
+  },
+  {
+    "patternId": "SA9003",
+    "title": "Empty body in an if or else branch",
+    "description": "Empty body in an if or else branch"
+  },
+  {
+    "patternId": "SA9004",
+    "title": "Only the first constant has an explicit type",
+    "description": "Only the first constant has an explicit type"
+  },
+  {
+    "patternId": "SA9005",
+    "title": "Trying to marshal a struct with no public fields nor custom marshaling",
+    "description": "Trying to marshal a struct with no public fields nor custom marshaling"
+  },
+  {
+    "patternId": "ST1000",
+    "title": "Incorrect or missing package comment",
+    "description": "Incorrect or missing package comment"
+  },
+  {
+    "patternId": "ST1001",
+    "title": "Dot imports are discouraged",
+    "description": "Dot imports are discouraged"
+  },
+  {
+    "patternId": "ST1003",
+    "title": "Poorly chosen identifier",
+    "description": "Poorly chosen identifier"
+  },
+  {
+    "patternId": "ST1005",
+    "title": "Incorrectly formatted error string",
+    "description": "Incorrectly formatted error string"
+  },
+  {
+    "patternId": "ST1006",
+    "title": "Poorly chosen receiver name",
+    "description": "Poorly chosen receiver name"
+  },
+  {
+    "patternId": "ST1008",
+    "title": "A function's error value should be its last return value",
+    "description": "A function's error value should be its last return value"
+  },
+  {
+    "patternId": "ST1011",
+    "title": "Poorly chosen name for variable of type time.Duration",
+    "description": "Poorly chosen name for variable of type time.Duration"
+  },
+  {
+    "patternId": "ST1012",
+    "title": "Poorly chosen name for error variable",
+    "description": "Poorly chosen name for error variable"
+  },
+  {
+    "patternId": "ST1013",
+    "title": "Should use constants for HTTP error codes, not magic numbers",
+    "description": "Should use constants for HTTP error codes, not magic numbers"
+  },
+  {
+    "patternId": "ST1015",
+    "title": "A switch's default case should be the first or last case",
+    "description": "A switch's default case should be the first or last case"
+  },
+  {
+    "patternId": "ST1016",
+    "title": "Use consistent method receiver names",
+    "description": "Use consistent method receiver names"
+  },
+  {
+    "patternId": "ST1017",
+    "title": "Don't use Yoda conditions",
+    "description": "Don't use Yoda conditions"
+  },
+  {
+    "patternId": "ST1018",
+    "title": "Avoid zero-width and control characters in string literals",
+    "description": "Avoid zero-width and control characters in string literals"
+  },
+  {
+    "patternId": "ST1019",
+    "title": "Importing the same package multiple times",
+    "description": "Importing the same package multiple times"
+  },
+  {
+    "patternId": "ST1020",
+    "title": "The documentation of an exported function should start with the function's name",
+    "description": "The documentation of an exported function should start with the function's name"
+  },
+  {
+    "patternId": "ST1021",
+    "title": "The documentation of an exported type should start with type's name",
+    "description": "The documentation of an exported type should start with type's name"
+  },
+  {
+    "patternId": "ST1022",
+    "title": "The documentation of an exported variable or constant should start with variable's name",
+    "description": "The documentation of an exported variable or constant should start with variable's name"
+  }
+]
