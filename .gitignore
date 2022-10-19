@@ -1,0 +1,8 @@
+.bsp
+.metals
+target
+
+# IDE
+.vscode
+.idea
+*.iml
