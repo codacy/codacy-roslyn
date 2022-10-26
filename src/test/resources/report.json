@@ -1,0 +1,146 @@
+[
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "4092a86f-4977-4e5c-993a-28cbacc16d8d"
+      },
+      "Id": "b75a557d-bfcf-4cc6-a255-c6d2fb89bfad"
+    },
+    "FileName": "SerializedAttributes.cs",
+    "FilePath": "/src/SerializedAttributes.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 8,
+        "CharNumber": 1,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Fix whitespace formatting. Replace 9 characters with \u0027\\n\\s\\s\\s\\s\u0027."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "4092a86f-4977-4e5c-993a-28cbacc16d8d"
+      },
+      "Id": "81eb079c-b662-4370-9fc2-8cb1531577fd"
+    },
+    "FileName": "MyScript.cs",
+    "FilePath": "/src/MyScript.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 7,
+        "CharNumber": 22,
+        "DiagnosticId": "CA1822",
+        "FormatDescription": "error CA1822: Member \u0027FixedUpdate\u0027 does not access instance data and can be marked as static"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "4092a86f-4977-4e5c-993a-28cbacc16d8d"
+      },
+      "Id": "81eb079c-b662-4370-9fc2-8cb1531577fd"
+    },
+    "FileName": "MyScript.cs",
+    "FilePath": "/src/MyScript.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 7,
+        "CharNumber": 22,
+        "DiagnosticId": "UNT0001",
+        "FormatDescription": "warning UNT0001: The Unity message \u0027FixedUpdate\u0027 is empty."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "4092a86f-4977-4e5c-993a-28cbacc16d8d"
+      },
+      "Id": "81eb079c-b662-4370-9fc2-8cb1531577fd"
+    },
+    "FileName": "MyScript.cs",
+    "FilePath": "/src/MyScript.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 13,
+        "CharNumber": 23,
+        "DiagnosticId": "UNT0002",
+        "FormatDescription": "warning UNT0002: Comparing tags using == is inefficient."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "4092a86f-4977-4e5c-993a-28cbacc16d8d"
+      },
+      "Id": "b75a557d-bfcf-4cc6-a255-c6d2fb89bfad"
+    },
+    "FileName": "SerializedAttributes.cs",
+    "FilePath": "/src/SerializedAttributes.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 9,
+        "CharNumber": 5,
+        "DiagnosticId": "UNT0013",
+        "FormatDescription": "error UNT0013: SerializeField attribute is invalid or redundant for property or field: \u0027publicField\u0027."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "4092a86f-4977-4e5c-993a-28cbacc16d8d"
+      },
+      "Id": "b75a557d-bfcf-4cc6-a255-c6d2fb89bfad"
+    },
+    "FileName": "SerializedAttributes.cs",
+    "FilePath": "/src/SerializedAttributes.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 12,
+        "CharNumber": 5,
+        "DiagnosticId": "UNT0013",
+        "FormatDescription": "error UNT0013: SerializeField attribute is invalid or redundant for property or field: \u0027PrivateProperty\u0027."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "4092a86f-4977-4e5c-993a-28cbacc16d8d"
+      },
+      "Id": "b75a557d-bfcf-4cc6-a255-c6d2fb89bfad"
+    },
+    "FileName": "SerializedAttributes.cs",
+    "FilePath": "/src/SerializedAttributes.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 15,
+        "CharNumber": 5,
+        "DiagnosticId": "UNT0013",
+        "FormatDescription": "error UNT0013: SerializeField attribute is invalid or redundant for property or field: \u0027staticField\u0027."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "4092a86f-4977-4e5c-993a-28cbacc16d8d"
+      },
+      "Id": "b75a557d-bfcf-4cc6-a255-c6d2fb89bfad"
+    },
+    "FileName": "SerializedAttributes.cs",
+    "FilePath": "/src/SerializedAttributes.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 18,
+        "CharNumber": 5,
+        "DiagnosticId": "UNT0013",
+        "FormatDescription": "error UNT0013: SerializeField attribute is invalid or redundant for property or field: \u0027readonlyField\u0027."
+      }
+    ]
+  }
+]
