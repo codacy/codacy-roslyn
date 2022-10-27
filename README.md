@@ -35,7 +35,10 @@ export COMMIT="COMMIT-UUID"
 export CODACY_URL="CODACY-INSTALLATION-URL" # if not defined https://api.codacy.com will be used
 export CODACY_ROSLYN_VERSION=0.2.3 # if not defined, latest will be used
 
-[[ CHANGE HERE ]]  | \
+# Run the roslyn analyzers to generate the report file
+dotnet format analyzers --verify-no-changes --report report
+
+cat report/format-report.json | \
 ./<codacy-roslyn-path>/scripts/send-results.sh # requires a codacy-roslyn-"<version>" in the current directory
 ```
 
@@ -45,8 +48,10 @@ Without script (step-by-step):
 export PROJECT_TOKEN="YOUR-TOKEN"
 export COMMIT="COMMIT-UUID"
 
-# 1. Run roslyn analyzers
-[[ CHANGE HERE ]] | \
+# 1. Run the roslyn analyzers to generate the report file
+dotnet format analyzers --verify-no-changes --report report
+
+cat report/format-report.json | \
 # 2. Convert the roslyn output to a format that the Codacy API accepts
 ./codacy-roslyn-"<version>" | \
 # 3. Send the results to Codacy
@@ -67,8 +72,10 @@ export PROJECT_TOKEN="YOUR-TOKEN"
 export COMMIT="COMMIT-UUID"
 export CODACY_URL="CODACY-INSTALLATION-URL"
 
-# 1. Run roslyn analyzers
-[[ CHANGE HERE ]] | \
+# 1. Run the roslyn analyzers to generate the report file
+dotnet format analyzers --verify-no-changes --report report
+
+cat report/format-report.json | \
 # 2. Convert the roslyn output to a format that the Codacy API accepts
 ./codacy-roslyn-"<version>" | \
 # 3. Send the results to Codacy
