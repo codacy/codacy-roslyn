@@ -35,8 +35,8 @@ object DocGenerator {
     patternsJson.createFileIfNotExists(createParents = true).write(ujson.write(patterns, indent = 2) + "\n")
 
     rules.foreach { rule =>
-      val explanation = Seq("curl", buildUrl(rule.name)).!!
-      val explanationFile = description / s"${rule.name}"
+      val explanation = Seq("curl", buildUrl(s"${rule.name}.md")).!!
+      val explanationFile = description / s"${rule.name}.md"
 
       explanationFile.createFileIfNotExists(createParents = true).write(explanation.trim)
     }
@@ -65,7 +65,9 @@ object DocGenerator {
 
     val name = unparsedName.split("\\(")(1).split("\\)")(0).trim
 
-    Some(RoslynRule(name, description, category))
+    val nameWithoutExtension = name.split("\\.")(0)
+
+    Some(RoslynRule(nameWithoutExtension, description, category))
   }
 
   private def buildDescription(rule: RoslynRule): Map[String, String] = {

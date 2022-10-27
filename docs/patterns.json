@@ -3,152 +3,152 @@
   "version": "1.14.0",
   "patterns": [
     {
-      "patternId": "UNT0001.md",
+      "patternId": "UNT0001",
       "level": "Warning",
       "category": "Performance"
     },
     {
-      "patternId": "UNT0002.md",
+      "patternId": "UNT0002",
       "level": "Warning",
       "category": "Performance"
     },
     {
-      "patternId": "UNT0003.md",
+      "patternId": "UNT0003",
       "level": "Warning",
       "category": "ErrorProne"
     },
     {
-      "patternId": "UNT0004.md",
+      "patternId": "UNT0004",
       "level": "Warning",
       "category": "ErrorProne"
     },
     {
-      "patternId": "UNT0005.md",
+      "patternId": "UNT0005",
       "level": "Warning",
       "category": "ErrorProne"
     },
     {
-      "patternId": "UNT0006.md",
+      "patternId": "UNT0006",
       "level": "Warning",
       "category": "ErrorProne"
     },
     {
-      "patternId": "UNT0007.md",
+      "patternId": "UNT0007",
       "level": "Warning",
       "category": "ErrorProne"
     },
     {
-      "patternId": "UNT0008.md",
+      "patternId": "UNT0008",
       "level": "Warning",
       "category": "ErrorProne"
     },
     {
-      "patternId": "UNT0009.md",
+      "patternId": "UNT0009",
       "level": "Warning",
       "category": "ErrorProne"
     },
     {
-      "patternId": "UNT0010.md",
+      "patternId": "UNT0010",
       "level": "Warning",
       "category": "ErrorProne"
     },
     {
-      "patternId": "UNT0011.md",
+      "patternId": "UNT0011",
       "level": "Warning",
       "category": "ErrorProne"
     },
     {
-      "patternId": "UNT0012.md",
+      "patternId": "UNT0012",
       "level": "Warning",
       "category": "ErrorProne"
     },
     {
-      "patternId": "UNT0013.md",
+      "patternId": "UNT0013",
       "level": "Warning",
       "category": "ErrorProne"
     },
     {
-      "patternId": "UNT0014.md",
+      "patternId": "UNT0014",
       "level": "Warning",
       "category": "ErrorProne"
     },
     {
-      "patternId": "UNT0015.md",
+      "patternId": "UNT0015",
       "level": "Warning",
       "category": "ErrorProne"
     },
     {
-      "patternId": "UNT0016.md",
+      "patternId": "UNT0016",
       "level": "Warning",
       "category": "ErrorProne"
     },
     {
-      "patternId": "UNT0017.md",
+      "patternId": "UNT0017",
       "level": "Warning",
       "category": "Performance"
     },
     {
-      "patternId": "UNT0018.md",
+      "patternId": "UNT0018",
       "level": "Warning",
       "category": "Performance"
     },
     {
-      "patternId": "UNT0019.md",
+      "patternId": "UNT0019",
       "level": "Warning",
       "category": "Performance"
     },
     {
-      "patternId": "UNT0020.md",
+      "patternId": "UNT0020",
       "level": "Warning",
       "category": "ErrorProne"
     },
     {
-      "patternId": "UNT0021.md",
+      "patternId": "UNT0021",
       "level": "Warning",
       "category": "ErrorProne"
     },
     {
-      "patternId": "UNT0022.md",
+      "patternId": "UNT0022",
       "level": "Warning",
       "category": "Performance"
     },
     {
-      "patternId": "UNT0023.md",
+      "patternId": "UNT0023",
       "level": "Warning",
       "category": "ErrorProne"
     },
     {
-      "patternId": "UNT0024.md",
+      "patternId": "UNT0024",
       "level": "Warning",
       "category": "Performance"
     },
     {
-      "patternId": "UNT0025.md",
+      "patternId": "UNT0025",
       "level": "Warning",
       "category": "ErrorProne"
     },
     {
-      "patternId": "UNT0026.md",
+      "patternId": "UNT0026",
       "level": "Warning",
       "category": "Performance"
     },
     {
-      "patternId": "UNT0027.md",
+      "patternId": "UNT0027",
       "level": "Warning",
       "category": "ErrorProne"
     },
     {
-      "patternId": "UNT0028.md",
+      "patternId": "UNT0028",
       "level": "Warning",
       "category": "Performance"
     },
     {
-      "patternId": "UNT0029.md",
+      "patternId": "UNT0029",
       "level": "Warning",
       "category": "ErrorProne"
     },
     {
-      "patternId": "UNT0030.md",
+      "patternId": "UNT0030",
       "level": "Warning",
       "category": "ErrorProne"
     }
