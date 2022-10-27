@@ -1,27 +1,27 @@
 # codacy-roslyn
 
-A standalone tool that converts [roslyn](https://github.com/dotnet/roslyn-analyzers)
+A standalone tool that converts [Roslyn Analyzers](https://github.com/dotnet/roslyn-analyzers)
 diagnostics to Codacy's format.
 
-It allows running roslyn analyzers either locally or as part of your CI process and then integrating the results into your Codacy workflow. This way, Codacy will present the results coming from roslyn analyzers alongside all the other code quality information in the dashboards.
+It allows running Roslyn Analyzers either locally or as part of your CI process and then integrating the results into your Codacy workflow. This way, Codacy will present the results coming from Roslyn Analyzers alongside all the other code quality information in the dashboards.
 
 ## Usage
 
 ### Requirements
 
-To get your roslyn results into Codacy you'll need to:
+To get your Roslyn Analyzers results into Codacy you'll need to:
 
--   [Enable Roslyn](https://docs.codacy.com/repositories-configure/configuring-code-patterns/) and configure the corresponding code patterns on your repository **Code patterns** page
--   Enable the setting **Run analysis through build server** under your repository **Settings > General > Repository analysis**
+-   [Enable Roslyn Analyzers](https://docs.codacy.com/repositories-configure/configuring-code-patterns/) and configure the corresponding code patterns on your repository **Code patterns** page
+-   Enable the setting **Run analysis through build server** on your repository **Settings**, tab **General**, **Repository analysis**
 -   Obtain a [Project API token](https://docs.codacy.com/codacy-api/api-tokens/#project-api-tokens)
 -   Download [codacy-roslyn](https://github.com/codacy/codacy-roslyn/releases)
 
 ### Sending the results to Codacy
 
-Sending the results of running roslyn analyzers to Codacy involves the steps below, which you can automate in your CI build process:
+Sending the results of running Roslyn Analyzers to Codacy involves the steps below, which you can automate in your CI build process:
 
-1.  Run roslyn using the json formatter
-2.  Convert the roslyn output to a format that the Codacy API accepts
+1.  Run Roslyn Analyzer using the json formatter
+2.  Convert the Roslyn Analyzers output to a format that the Codacy API accepts
 3.  Send the results to Codacy
 4.  Finally, signal that Codacy can use the sent results and start a new analysis
 
@@ -35,7 +35,7 @@ export COMMIT="COMMIT-UUID"
 export CODACY_URL="CODACY-INSTALLATION-URL" # if not defined https://api.codacy.com will be used
 export CODACY_ROSLYN_VERSION=0.2.3 # if not defined, latest will be used
 
-# Run the roslyn analyzers to generate the report file
+# Run the Roslyn Analyzers to generate the report file
 dotnet format analyzers --verify-no-changes --report report
 
 cat report/format-report.json | \
@@ -48,11 +48,11 @@ Without script (step-by-step):
 export PROJECT_TOKEN="YOUR-TOKEN"
 export COMMIT="COMMIT-UUID"
 
-# 1. Run the roslyn analyzers to generate the report file
+# 1. Run the Roslyn Analyzers to generate the report file
 dotnet format analyzers --verify-no-changes --report report
 
 cat report/format-report.json | \
-# 2. Convert the roslyn output to a format that the Codacy API accepts
+# 2. Convert the Roslyn Analyzers output to a format that the Codacy API accepts
 ./codacy-roslyn-"<version>" | \
 # 3. Send the results to Codacy
 curl -XPOST -L -H "project-token: $PROJECT_TOKEN" \
@@ -72,11 +72,11 @@ export PROJECT_TOKEN="YOUR-TOKEN"
 export COMMIT="COMMIT-UUID"
 export CODACY_URL="CODACY-INSTALLATION-URL"
 
-# 1. Run the roslyn analyzers to generate the report file
+# 1. Run the Roslyn Analyzers to generate the report file
 dotnet format analyzers --verify-no-changes --report report
 
 cat report/format-report.json | \
-# 2. Convert the roslyn output to a format that the Codacy API accepts
+# 2. Convert the Roslyn Analyzers output to a format that the Codacy API accepts
 ./codacy-roslyn-"<version>" | \
 # 3. Send the results to Codacy
 curl -XPOST -L -H "project-token: $PROJECT_TOKEN" \
