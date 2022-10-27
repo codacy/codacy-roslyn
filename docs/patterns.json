@@ -1,0 +1,156 @@
+{
+  "name": "codacy-roslyn",
+  "version": "1.14.0",
+  "patterns": [
+    {
+      "patternId": "UNT0001.md",
+      "level": "Warning",
+      "category": "Performance"
+    },
+    {
+      "patternId": "UNT0002.md",
+      "level": "Warning",
+      "category": "Performance"
+    },
+    {
+      "patternId": "UNT0003.md",
+      "level": "Warning",
+      "category": "ErrorProne"
+    },
+    {
+      "patternId": "UNT0004.md",
+      "level": "Warning",
+      "category": "ErrorProne"
+    },
+    {
+      "patternId": "UNT0005.md",
+      "level": "Warning",
+      "category": "ErrorProne"
+    },
+    {
+      "patternId": "UNT0006.md",
+      "level": "Warning",
+      "category": "ErrorProne"
+    },
+    {
+      "patternId": "UNT0007.md",
+      "level": "Warning",
+      "category": "ErrorProne"
+    },
+    {
+      "patternId": "UNT0008.md",
+      "level": "Warning",
+      "category": "ErrorProne"
+    },
+    {
+      "patternId": "UNT0009.md",
+      "level": "Warning",
+      "category": "ErrorProne"
+    },
+    {
+      "patternId": "UNT0010.md",
+      "level": "Warning",
+      "category": "ErrorProne"
+    },
+    {
+      "patternId": "UNT0011.md",
+      "level": "Warning",
+      "category": "ErrorProne"
+    },
+    {
+      "patternId": "UNT0012.md",
+      "level": "Warning",
+      "category": "ErrorProne"
+    },
+    {
+      "patternId": "UNT0013.md",
+      "level": "Warning",
+      "category": "ErrorProne"
+    },
+    {
+      "patternId": "UNT0014.md",
+      "level": "Warning",
+      "category": "ErrorProne"
+    },
+    {
+      "patternId": "UNT0015.md",
+      "level": "Warning",
+      "category": "ErrorProne"
+    },
+    {
+      "patternId": "UNT0016.md",
+      "level": "Warning",
+      "category": "ErrorProne"
+    },
+    {
+      "patternId": "UNT0017.md",
+      "level": "Warning",
+      "category": "Performance"
+    },
+    {
+      "patternId": "UNT0018.md",
+      "level": "Warning",
+      "category": "Performance"
+    },
+    {
+      "patternId": "UNT0019.md",
+      "level": "Warning",
+      "category": "Performance"
+    },
+    {
+      "patternId": "UNT0020.md",
+      "level": "Warning",
+      "category": "ErrorProne"
+    },
+    {
+      "patternId": "UNT0021.md",
+      "level": "Warning",
+      "category": "ErrorProne"
+    },
+    {
+      "patternId": "UNT0022.md",
+      "level": "Warning",
+      "category": "Performance"
+    },
+    {
+      "patternId": "UNT0023.md",
+      "level": "Warning",
+      "category": "ErrorProne"
+    },
+    {
+      "patternId": "UNT0024.md",
+      "level": "Warning",
+      "category": "Performance"
+    },
+    {
+      "patternId": "UNT0025.md",
+      "level": "Warning",
+      "category": "ErrorProne"
+    },
+    {
+      "patternId": "UNT0026.md",
+      "level": "Warning",
+      "category": "Performance"
+    },
+    {
+      "patternId": "UNT0027.md",
+      "level": "Warning",
+      "category": "ErrorProne"
+    },
+    {
+      "patternId": "UNT0028.md",
+      "level": "Warning",
+      "category": "Performance"
+    },
+    {
+      "patternId": "UNT0029.md",
+      "level": "Warning",
+      "category": "ErrorProne"
+    },
+    {
+      "patternId": "UNT0030.md",
+      "level": "Warning",
+      "category": "ErrorProne"
+    }
+  ]
+}
