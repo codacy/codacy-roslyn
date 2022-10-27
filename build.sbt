@@ -11,8 +11,22 @@ libraryDependencies ++= Seq(
 
 enablePlugins(NativeImagePlugin)
 
-//This setting avoids a empty image with java being created if anythings fails while nativeImage
-nativeImageOptions += "--no-fallback"
+nativeImageOptions ++= Seq(
+  "-O1",
+  "-H:+ReportExceptionStackTraces",
+  "--no-fallback",
+  "--no-server",
+  "--report-unsupported-elements-at-runtime",
+  "--static"
+)
+
+assembly / assemblyMergeStrategy := {
+  case PathList("module-info.class") => MergeStrategy.discard
+  case x if x.endsWith("/module-info.class") => MergeStrategy.discard
+  case x =>
+    val oldStrategy = (assembly / assemblyMergeStrategy).value
+    oldStrategy(x)
+}
 
 val roslynVersion = "1.14.0"
 
