@@ -9,10 +9,11 @@ It allows running roslyn analyzers either locally or as part of your CI process 
 
 ### Requirements
 
-To get your roslyn results into Codacy you'll need to:
+To get your Roslyn Analyzers results into Codacy you'll need to:
 
--   Enable the setting “Run analysis through build server” under your repository Settings > General > Repository analysis
--   Obtain a [Project API token](https://support.codacy.com/hc/en-us/articles/207994675-Project-API)
+-   [Enable Roslyn Analyzers](https://docs.codacy.com/repositories-configure/configuring-code-patterns/) and configure the corresponding code patterns on your repository **Code patterns** page
+-   Enable the setting **Run analysis through build server** on your repository **Settings**, tab **General**, **Repository analysis**
+-   Obtain a [project API token](https://docs.codacy.com/codacy-api/api-tokens/#project-api-tokens)
 -   Download [codacy-roslyn](https://github.com/codacy/codacy-roslyn/releases)
 
 ### Sending the results to Codacy
