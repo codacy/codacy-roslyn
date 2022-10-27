@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-  codacy: codacy/base@6.1.4
+  codacy: codacy/base@9.3.1
   codacy_plugins_test: codacy/plugins-test@1.1.1
 
 workflows:
@@ -26,10 +26,11 @@ workflows:
           name: package_artifacts
           persist_to_workspace: true
           cmd: |
-            sbt nativeImage
+            sbt nativeImage assembly
 
             mkdir -p ~/workdir/artifacts/
             mv target/native-image ~/workdir/artifacts/codacy-roslyn-$(cat .version)
+            mv target/scala-2.13/codacy-roslyn-assembly-$(cat .version).jar ~/workdir/artifacts/codacy-roslyn-$(cat .version).jar
           requires:
             - check_fmt_and_compile
       - codacy/shell:
