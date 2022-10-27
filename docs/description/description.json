@@ -1,0 +1,152 @@
+[
+  {
+    "patternId": "UNT0001.md",
+    "title": "Empty Unity message",
+    "description": "Empty Unity message"
+  },
+  {
+    "patternId": "UNT0002.md",
+    "title": "Inefficient tag comparison",
+    "description": "Inefficient tag comparison"
+  },
+  {
+    "patternId": "UNT0003.md",
+    "title": "Usage of non generic GetComponent",
+    "description": "Usage of non generic GetComponent"
+  },
+  {
+    "patternId": "UNT0004.md",
+    "title": "Time.fixedDeltaTime used with Update",
+    "description": "Time.fixedDeltaTime used with Update"
+  },
+  {
+    "patternId": "UNT0005.md",
+    "title": "Time.deltaTime used with FixedUpdate `[retired]`",
+    "description": "Time.deltaTime used with FixedUpdate `[retired]`"
+  },
+  {
+    "patternId": "UNT0006.md",
+    "title": "Incorrect message signature",
+    "description": "Incorrect message signature"
+  },
+  {
+    "patternId": "UNT0007.md",
+    "title": "Null coalescing on Unity objects",
+    "description": "Null coalescing on Unity objects"
+  },
+  {
+    "patternId": "UNT0008.md",
+    "title": "Null propagation on Unity objects",
+    "description": "Null propagation on Unity objects"
+  },
+  {
+    "patternId": "UNT0009.md",
+    "title": "Missing static constructor with InitializeOnLoad",
+    "description": "Missing static constructor with InitializeOnLoad"
+  },
+  {
+    "patternId": "UNT0010.md",
+    "title": "Component instance creation",
+    "description": "Component instance creation"
+  },
+  {
+    "patternId": "UNT0011.md",
+    "title": "ScriptableObject instance creation",
+    "description": "ScriptableObject instance creation"
+  },
+  {
+    "patternId": "UNT0012.md",
+    "title": "Unused coroutine return value",
+    "description": "Unused coroutine return value"
+  },
+  {
+    "patternId": "UNT0013.md",
+    "title": "Invalid or redundant SerializeField attribute",
+    "description": "Invalid or redundant SerializeField attribute"
+  },
+  {
+    "patternId": "UNT0014.md",
+    "title": "GetComponent called with non-Component or non-Interface type",
+    "description": "GetComponent called with non-Component or non-Interface type"
+  },
+  {
+    "patternId": "UNT0015.md",
+    "title": "Incorrect method signature with InitializeOnLoadMethod, RuntimeInitializeOnLoadMethod or DidReloadScripts attribute",
+    "description": "Incorrect method signature with InitializeOnLoadMethod, RuntimeInitializeOnLoadMethod or DidReloadScripts attribute"
+  },
+  {
+    "patternId": "UNT0016.md",
+    "title": "Unsafe way to get the method name",
+    "description": "Unsafe way to get the method name"
+  },
+  {
+    "patternId": "UNT0017.md",
+    "title": "SetPixels invocation is slow",
+    "description": "SetPixels invocation is slow"
+  },
+  {
+    "patternId": "UNT0018.md",
+    "title": "System.Reflection features in performance critical messages",
+    "description": "System.Reflection features in performance critical messages"
+  },
+  {
+    "patternId": "UNT0019.md",
+    "title": "Unnecessary indirection call for GameObject.gameObject",
+    "description": "Unnecessary indirection call for GameObject.gameObject"
+  },
+  {
+    "patternId": "UNT0020.md",
+    "title": "MenuItem attribute used on non-static method",
+    "description": "MenuItem attribute used on non-static method"
+  },
+  {
+    "patternId": "UNT0021.md",
+    "title": "Unity message should be protected `[opt-in]`",
+    "description": "Unity message should be protected `[opt-in]`"
+  },
+  {
+    "patternId": "UNT0022.md",
+    "title": "Inefficient method to set position and rotation",
+    "description": "Inefficient method to set position and rotation"
+  },
+  {
+    "patternId": "UNT0023.md",
+    "title": "Coalescing assignment on Unity objects",
+    "description": "Coalescing assignment on Unity objects"
+  },
+  {
+    "patternId": "UNT0024.md",
+    "title": "Give priority to scalar calculations over vector calculations",
+    "description": "Give priority to scalar calculations over vector calculations"
+  },
+  {
+    "patternId": "UNT0025.md",
+    "title": "Input.GetKey overloads with KeyCode argument",
+    "description": "Input.GetKey overloads with KeyCode argument"
+  },
+  {
+    "patternId": "UNT0026.md",
+    "title": "GetComponent always allocates",
+    "description": "GetComponent always allocates"
+  },
+  {
+    "patternId": "UNT0027.md",
+    "title": "Do not call PropertyDrawer.OnGUI()",
+    "description": "Do not call PropertyDrawer.OnGUI()"
+  },
+  {
+    "patternId": "UNT0028.md",
+    "title": "Use non-allocating physics APIs",
+    "description": "Use non-allocating physics APIs"
+  },
+  {
+    "patternId": "UNT0029.md",
+    "title": "Pattern matching with null on Unity objects",
+    "description": "Pattern matching with null on Unity objects"
+  },
+  {
+    "patternId": "UNT0030.md",
+    "title": "Calling Destroy or DestroyImmediate on a Transform",
+    "description": "Calling Destroy or DestroyImmediate on a Transform"
+  }
+]
