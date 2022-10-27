@@ -1,151 +1,151 @@
 [
   {
-    "patternId": "UNT0001.md",
+    "patternId": "UNT0001",
     "title": "Empty Unity message",
     "description": "Empty Unity message"
   },
   {
-    "patternId": "UNT0002.md",
+    "patternId": "UNT0002",
     "title": "Inefficient tag comparison",
     "description": "Inefficient tag comparison"
   },
   {
-    "patternId": "UNT0003.md",
+    "patternId": "UNT0003",
     "title": "Usage of non generic GetComponent",
     "description": "Usage of non generic GetComponent"
   },
   {
-    "patternId": "UNT0004.md",
+    "patternId": "UNT0004",
     "title": "Time.fixedDeltaTime used with Update",
     "description": "Time.fixedDeltaTime used with Update"
   },
   {
-    "patternId": "UNT0005.md",
+    "patternId": "UNT0005",
     "title": "Time.deltaTime used with FixedUpdate `[retired]`",
     "description": "Time.deltaTime used with FixedUpdate `[retired]`"
   },
   {
-    "patternId": "UNT0006.md",
+    "patternId": "UNT0006",
     "title": "Incorrect message signature",
     "description": "Incorrect message signature"
   },
   {
-    "patternId": "UNT0007.md",
+    "patternId": "UNT0007",
     "title": "Null coalescing on Unity objects",
     "description": "Null coalescing on Unity objects"
   },
   {
-    "patternId": "UNT0008.md",
+    "patternId": "UNT0008",
     "title": "Null propagation on Unity objects",
     "description": "Null propagation on Unity objects"
   },
   {
-    "patternId": "UNT0009.md",
+    "patternId": "UNT0009",
     "title": "Missing static constructor with InitializeOnLoad",
     "description": "Missing static constructor with InitializeOnLoad"
   },
   {
-    "patternId": "UNT0010.md",
+    "patternId": "UNT0010",
     "title": "Component instance creation",
     "description": "Component instance creation"
   },
   {
-    "patternId": "UNT0011.md",
+    "patternId": "UNT0011",
     "title": "ScriptableObject instance creation",
     "description": "ScriptableObject instance creation"
   },
   {
-    "patternId": "UNT0012.md",
+    "patternId": "UNT0012",
     "title": "Unused coroutine return value",
     "description": "Unused coroutine return value"
   },
   {
-    "patternId": "UNT0013.md",
+    "patternId": "UNT0013",
     "title": "Invalid or redundant SerializeField attribute",
     "description": "Invalid or redundant SerializeField attribute"
   },
   {
-    "patternId": "UNT0014.md",
+    "patternId": "UNT0014",
     "title": "GetComponent called with non-Component or non-Interface type",
     "description": "GetComponent called with non-Component or non-Interface type"
   },
   {
-    "patternId": "UNT0015.md",
+    "patternId": "UNT0015",
     "title": "Incorrect method signature with InitializeOnLoadMethod, RuntimeInitializeOnLoadMethod or DidReloadScripts attribute",
     "description": "Incorrect method signature with InitializeOnLoadMethod, RuntimeInitializeOnLoadMethod or DidReloadScripts attribute"
   },
   {
-    "patternId": "UNT0016.md",
+    "patternId": "UNT0016",
     "title": "Unsafe way to get the method name",
     "description": "Unsafe way to get the method name"
   },
   {
-    "patternId": "UNT0017.md",
+    "patternId": "UNT0017",
     "title": "SetPixels invocation is slow",
     "description": "SetPixels invocation is slow"
   },
   {
-    "patternId": "UNT0018.md",
+    "patternId": "UNT0018",
     "title": "System.Reflection features in performance critical messages",
     "description": "System.Reflection features in performance critical messages"
   },
   {
-    "patternId": "UNT0019.md",
+    "patternId": "UNT0019",
     "title": "Unnecessary indirection call for GameObject.gameObject",
     "description": "Unnecessary indirection call for GameObject.gameObject"
   },
   {
-    "patternId": "UNT0020.md",
+    "patternId": "UNT0020",
     "title": "MenuItem attribute used on non-static method",
     "description": "MenuItem attribute used on non-static method"
   },
   {
-    "patternId": "UNT0021.md",
+    "patternId": "UNT0021",
     "title": "Unity message should be protected `[opt-in]`",
     "description": "Unity message should be protected `[opt-in]`"
   },
   {
-    "patternId": "UNT0022.md",
+    "patternId": "UNT0022",
     "title": "Inefficient method to set position and rotation",
     "description": "Inefficient method to set position and rotation"
   },
   {
-    "patternId": "UNT0023.md",
+    "patternId": "UNT0023",
     "title": "Coalescing assignment on Unity objects",
     "description": "Coalescing assignment on Unity objects"
   },
   {
-    "patternId": "UNT0024.md",
+    "patternId": "UNT0024",
     "title": "Give priority to scalar calculations over vector calculations",
     "description": "Give priority to scalar calculations over vector calculations"
   },
   {
-    "patternId": "UNT0025.md",
+    "patternId": "UNT0025",
     "title": "Input.GetKey overloads with KeyCode argument",
     "description": "Input.GetKey overloads with KeyCode argument"
   },
   {
-    "patternId": "UNT0026.md",
+    "patternId": "UNT0026",
     "title": "GetComponent always allocates",
     "description": "GetComponent always allocates"
   },
   {
-    "patternId": "UNT0027.md",
+    "patternId": "UNT0027",
     "title": "Do not call PropertyDrawer.OnGUI()",
     "description": "Do not call PropertyDrawer.OnGUI()"
   },
   {
-    "patternId": "UNT0028.md",
+    "patternId": "UNT0028",
     "title": "Use non-allocating physics APIs",
     "description": "Use non-allocating physics APIs"
   },
   {
-    "patternId": "UNT0029.md",
+    "patternId": "UNT0029",
     "title": "Pattern matching with null on Unity objects",
     "description": "Pattern matching with null on Unity objects"
   },
   {
-    "patternId": "UNT0030.md",
+    "patternId": "UNT0030",
     "title": "Calling Destroy or DestroyImmediate on a Transform",
     "description": "Calling Destroy or DestroyImmediate on a Transform"
   }
