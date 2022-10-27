@@ -29,7 +29,7 @@ workflows:
             sbt nativeImage assembly
 
             mkdir -p ~/workdir/artifacts/
-            mv target/native-image ~/workdir/artifacts/codacy-roslyn-$(cat .version)
+            mv target/native-image/codacy-roslyn ~/workdir/artifacts/codacy-roslyn-$(cat .version)
             mv target/scala-2.13/codacy-roslyn-assembly-$(cat .version).jar ~/workdir/artifacts/codacy-roslyn-$(cat .version).jar
           requires:
             - check_fmt_and_compile
