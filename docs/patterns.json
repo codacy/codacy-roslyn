@@ -1,5 +1,5 @@
 {
-  "name": "codacy-roslyn",
+  "name": "roslyn",
   "version": "1.14.0",
   "patterns": [
     {
