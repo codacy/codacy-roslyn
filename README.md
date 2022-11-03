@@ -20,7 +20,7 @@ To get your Unity Roslyn Analyzers results into Codacy you'll need to:
 
 Sending the results of running Unity Roslyn Analyzers to Codacy involves the steps below, which you can automate in your CI build process:
 
-1.  Run Roslyn Analyzer using the json formatter
+1.  Run Unity Roslyn Analyzers using the json formatter
 2.  Convert the Unity Roslyn Analyzers output to a format that the Codacy API accepts
 3.  Send the results to Codacy
 4.  Finally, signal that Codacy can use the sent results and start a new analysis
