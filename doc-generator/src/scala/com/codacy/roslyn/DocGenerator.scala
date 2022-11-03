@@ -29,7 +29,7 @@ object DocGenerator {
     val descriptions = rules.map(buildDescription)
     val patterns =
       ujson
-        .Obj("name" -> "codacy-roslyn", "version" -> roslynVersion, "patterns" -> rules.map(buildPattern))
+        .Obj("name" -> "roslyn", "version" -> roslynVersion, "patterns" -> rules.map(buildPattern))
 
     descriptionJson.createFileIfNotExists(createParents = true).write(ujson.write(descriptions, indent = 2) + "\n")
     patternsJson.createFileIfNotExists(createParents = true).write(ujson.write(patterns, indent = 2) + "\n")
