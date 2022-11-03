@@ -1,1 +1,1 @@
-Roslyn Analyzers analyze your code for style, quality and maintainability, design, and other issues. [Learn more](https://github.com/dotnet/roslyn-analyzers)
+Unity specific diagnostics for CSharp Unity Projects. [Learn more](https://github.com/microsoft/microsoft.unity.analyzers)
