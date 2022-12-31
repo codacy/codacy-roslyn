@@ -5,4 +5,4 @@ target
 # IDE
 .vscode
 .idea
-*.iml
+*.iml.git/
