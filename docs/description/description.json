@@ -148,5 +148,30 @@
     "patternId": "UNT0030",
     "title": "Calling Destroy or DestroyImmediate on a Transform",
     "description": "Calling Destroy or DestroyImmediate on a Transform"
+  },
+  {
+    "patternId": "UNT0031",
+    "title": "Asset operations in LoadAttribute method",
+    "description": "Asset operations in LoadAttribute method"
+  },
+  {
+    "patternId": "UNT0032",
+    "title": "Inefficient method to set localPosition and localRotation",
+    "description": "Inefficient method to set localPosition and localRotation"
+  },
+  {
+    "patternId": "UNT0033",
+    "title": "Incorrect message case",
+    "description": "Incorrect message case"
+  },
+  {
+    "patternId": "UNT0034",
+    "title": "A Vector3 can be converted into a Vector2",
+    "description": "A Vector3 can be converted into a Vector2"
+  },
+  {
+    "patternId": "UNT0035",
+    "title": "A Vector2 can be converted into a Vector3",
+    "description": "A Vector2 can be converted into a Vector3"
   }
 ]
