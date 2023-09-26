@@ -28,7 +28,7 @@ assembly / assemblyMergeStrategy := {
     oldStrategy(x)
 }
 
-val roslynVersion = "1.14.0"
+val roslynVersion = "1.17.0"
 
 libraryDependencies ++= Seq(
   "com.codacy" %% "codacy-engine-scala-seed" % "6.0.1",
