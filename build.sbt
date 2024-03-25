@@ -6,7 +6,8 @@ libraryDependencies ++= Seq(
   "com.codacy" %% "codacy-engine-scala-seed" % "6.1.2",
   "com.lihaoyi" %% "ujson" % "3.2.0",
   "com.codacy" %% "codacy-analysis-cli-model" % "7.9.8",
-  "org.scalatest" %% "scalatest" % "3.2.18" % Test
+  "org.scalatest" %% "scalatest" % "3.2.18" % Test,
+  "com.github.pathikrit" %% "better-files" % "3.9.2"
 )
 
 enablePlugins(NativeImagePlugin)
