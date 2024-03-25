@@ -28,7 +28,7 @@ assembly / assemblyMergeStrategy := {
     oldStrategy(x)
 }
 
-val roslynVersion = "1.17.0"
+val roslynVersion = "1.19.0"
 
 libraryDependencies ++= Seq(
   "com.codacy" %% "codacy-engine-scala-seed" % "6.1.2",
@@ -51,5 +51,5 @@ lazy val `doc-generator` = project
       )
       Seq(file)
     }.taskValue,
-    libraryDependencies ++= Seq("com.github.pathikrit" %% "better-files" % "4.0.0-M1", "com.lihaoyi" %% "ujson" % "3.2.0")
+    libraryDependencies ++= Seq("com.github.pathikrit" %% "better-files" % "3.9.2", "com.lihaoyi" %% "ujson" % "3.2.0")
   )

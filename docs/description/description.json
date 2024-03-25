@@ -173,5 +173,15 @@
     "patternId": "UNT0035",
     "title": "A Vector2 can be converted into a Vector3",
     "description": "A Vector2 can be converted into a Vector3"
+  },
+  {
+    "patternId": "UNT0036",
+    "title": "Inefficient method to get position and rotation",
+    "description": "Inefficient method to get position and rotation"
+  },
+  {
+    "patternId": "UNT0037",
+    "title": "Inefficient method to get localPosition and localRotation",
+    "description": "Inefficient method to get localPosition and localRotation"
   }
 ]
