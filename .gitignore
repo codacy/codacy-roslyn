@@ -6,3 +6,12 @@ target
 .vscode
 .idea
 *.iml
+
+#Ignore vscode AI rules
+.github/copilot-instructions.md
+
+.bloop
+project/metals.sbt
+project/.bloop
+project/target
+project/project
