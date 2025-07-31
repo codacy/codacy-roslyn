@@ -1,12 +1,12 @@
 name := "codacy-roslyn"
 
-ThisBuild / scalaVersion := "2.13.13"
+ThisBuild / scalaVersion := "2.13.16"
 
 libraryDependencies ++= Seq(
-  "com.codacy" %% "codacy-engine-scala-seed" % "6.1.2",
-  "com.lihaoyi" %% "ujson" % "3.2.0",
+  "com.codacy" %% "codacy-engine-scala-seed" % "6.1.5",
+  "com.lihaoyi" %% "ujson" % "4.2.1",
   "com.codacy" %% "codacy-analysis-cli-model" % "7.9.8",
-  "org.scalatest" %% "scalatest" % "3.2.18" % Test,
+  "org.scalatest" %% "scalatest" % "3.2.19" % Test,
   "com.github.pathikrit" %% "better-files" % "3.9.2"
 )
 
@@ -29,13 +29,13 @@ assembly / assemblyMergeStrategy := {
     oldStrategy(x)
 }
 
-val roslynVersion = "1.22.0"
+val roslynVersion = "1.23.0"
 
 libraryDependencies ++= Seq(
-  "com.codacy" %% "codacy-engine-scala-seed" % "6.1.2",
-  "org.scala-lang.modules" %% "scala-xml" % "2.2.0",
-  "com.lihaoyi" %% "ujson" % "3.2.0",
-  "org.scalatest" %% "scalatest" % "3.2.18" % Test
+  "com.codacy" %% "codacy-engine-scala-seed" % "6.1.5",
+  "org.scala-lang.modules" %% "scala-xml" % "2.4.0",
+  "com.lihaoyi" %% "ujson" % "4.2.1",
+  "org.scalatest" %% "scalatest" % "3.2.19" % Test
 )
 
 lazy val `doc-generator` = project
@@ -52,5 +52,5 @@ lazy val `doc-generator` = project
       )
       Seq(file)
     }.taskValue,
-    libraryDependencies ++= Seq("com.github.pathikrit" %% "better-files" % "3.9.2", "com.lihaoyi" %% "ujson" % "3.2.0")
+    libraryDependencies ++= Seq("com.github.pathikrit" %% "better-files" % "3.9.2", "com.lihaoyi" %% "ujson" % "4.2.1")
   )

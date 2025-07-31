@@ -1,6 +1,6 @@
 {
   "name": "roslyn",
-  "version": "1.22.0",
+  "version": "1.23.0",
   "patterns": [
     {
       "patternId": "UNT0001",
@@ -184,6 +184,11 @@
     },
     {
       "patternId": "UNT0037",
+      "level": "Warning",
+      "category": "Performance"
+    },
+    {
+      "patternId": "UNT0038",
       "level": "Warning",
       "category": "Performance"
     }

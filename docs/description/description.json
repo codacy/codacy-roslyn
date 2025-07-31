@@ -11,18 +11,18 @@
   },
   {
     "patternId": "UNT0003",
-    "title": "Usage of non generic GetComponent",
-    "description": "Usage of non generic GetComponent"
+    "title": "Usage of non generic `GetComponent`",
+    "description": "Usage of non generic `GetComponent`"
   },
   {
     "patternId": "UNT0004",
-    "title": "Time.fixedDeltaTime used with Update",
-    "description": "Time.fixedDeltaTime used with Update"
+    "title": "`Time.fixedDeltaTime` used with `Update`",
+    "description": "`Time.fixedDeltaTime` used with `Update`"
   },
   {
     "patternId": "UNT0005",
-    "title": "Time.deltaTime used with FixedUpdate `[retired]`",
-    "description": "Time.deltaTime used with FixedUpdate `[retired]`"
+    "title": "`Time.deltaTime` used with `FixedUpdate` `[retired]`",
+    "description": "`Time.deltaTime` used with `FixedUpdate` `[retired]`"
   },
   {
     "patternId": "UNT0006",
@@ -41,8 +41,8 @@
   },
   {
     "patternId": "UNT0009",
-    "title": "Missing static constructor with InitializeOnLoad",
-    "description": "Missing static constructor with InitializeOnLoad"
+    "title": "Missing static constructor with `InitializeOnLoad`",
+    "description": "Missing static constructor with `InitializeOnLoad`"
   },
   {
     "patternId": "UNT0010",
@@ -51,8 +51,8 @@
   },
   {
     "patternId": "UNT0011",
-    "title": "ScriptableObject instance creation",
-    "description": "ScriptableObject instance creation"
+    "title": "`ScriptableObject` instance creation",
+    "description": "`ScriptableObject` instance creation"
   },
   {
     "patternId": "UNT0012",
@@ -61,18 +61,18 @@
   },
   {
     "patternId": "UNT0013",
-    "title": "Invalid or redundant SerializeField attribute",
-    "description": "Invalid or redundant SerializeField attribute"
+    "title": "Invalid or redundant `SerializeField` attribute",
+    "description": "Invalid or redundant `SerializeField` attribute"
   },
   {
     "patternId": "UNT0014",
-    "title": "GetComponent called with non-Component or non-Interface type",
-    "description": "GetComponent called with non-Component or non-Interface type"
+    "title": "`GetComponent` called with non-Component or non-Interface type",
+    "description": "`GetComponent` called with non-Component or non-Interface type"
   },
   {
     "patternId": "UNT0015",
-    "title": "Incorrect method signature with InitializeOnLoadMethod, RuntimeInitializeOnLoadMethod or DidReloadScripts attribute",
-    "description": "Incorrect method signature with InitializeOnLoadMethod, RuntimeInitializeOnLoadMethod or DidReloadScripts attribute"
+    "title": "Incorrect method signature with `InitializeOnLoadMethod`, `RuntimeInitializeOnLoadMethod` or `DidReloadScripts` attribute",
+    "description": "Incorrect method signature with `InitializeOnLoadMethod`, `RuntimeInitializeOnLoadMethod` or `DidReloadScripts` attribute"
   },
   {
     "patternId": "UNT0016",
@@ -81,23 +81,23 @@
   },
   {
     "patternId": "UNT0017",
-    "title": "SetPixels invocation is slow",
-    "description": "SetPixels invocation is slow"
+    "title": "`SetPixels` invocation is slow",
+    "description": "`SetPixels` invocation is slow"
   },
   {
     "patternId": "UNT0018",
-    "title": "System.Reflection features in performance critical messages",
-    "description": "System.Reflection features in performance critical messages"
+    "title": "`System.Reflection` features in performance critical messages",
+    "description": "`System.Reflection` features in performance critical messages"
   },
   {
     "patternId": "UNT0019",
-    "title": "Unnecessary indirection call for GameObject.gameObject",
-    "description": "Unnecessary indirection call for GameObject.gameObject"
+    "title": "Unnecessary indirection call for `GameObject.gameObject`",
+    "description": "Unnecessary indirection call for `GameObject.gameObject`"
   },
   {
     "patternId": "UNT0020",
-    "title": "MenuItem attribute used on non-static method",
-    "description": "MenuItem attribute used on non-static method"
+    "title": "`MenuItem` attribute used on non-static method",
+    "description": "`MenuItem` attribute used on non-static method"
   },
   {
     "patternId": "UNT0021",
@@ -121,18 +121,18 @@
   },
   {
     "patternId": "UNT0025",
-    "title": "Input.GetKey overloads with KeyCode argument",
-    "description": "Input.GetKey overloads with KeyCode argument"
+    "title": "`Input.GetKey` overloads with `KeyCode` argument",
+    "description": "`Input.GetKey` overloads with `KeyCode` argument"
   },
   {
     "patternId": "UNT0026",
-    "title": "GetComponent always allocates",
-    "description": "GetComponent always allocates"
+    "title": "`GetComponent` always allocates",
+    "description": "`GetComponent` always allocates"
   },
   {
     "patternId": "UNT0027",
-    "title": "Do not call PropertyDrawer.OnGUI()",
-    "description": "Do not call PropertyDrawer.OnGUI()"
+    "title": "Do not call `PropertyDrawer.OnGUI()`",
+    "description": "Do not call `PropertyDrawer.OnGUI()`"
   },
   {
     "patternId": "UNT0028",
@@ -146,13 +146,13 @@
   },
   {
     "patternId": "UNT0030",
-    "title": "Calling Destroy or DestroyImmediate on a Transform",
-    "description": "Calling Destroy or DestroyImmediate on a Transform"
+    "title": "Calling `Destroy` or `DestroyImmediate` on a `Transform`",
+    "description": "Calling `Destroy` or `DestroyImmediate` on a `Transform`"
   },
   {
     "patternId": "UNT0031",
-    "title": "Asset operations in LoadAttribute method",
-    "description": "Asset operations in LoadAttribute method"
+    "title": "Asset operations in `LoadAttribute` method",
+    "description": "Asset operations in `LoadAttribute` method"
   },
   {
     "patternId": "UNT0032",
@@ -166,13 +166,13 @@
   },
   {
     "patternId": "UNT0034",
-    "title": "A Vector3 can be converted into a Vector2",
-    "description": "A Vector3 can be converted into a Vector2"
+    "title": "A `Vector3` can be converted into a `Vector2`",
+    "description": "A `Vector3` can be converted into a `Vector2`"
   },
   {
     "patternId": "UNT0035",
-    "title": "A Vector2 can be converted into a Vector3",
-    "description": "A Vector2 can be converted into a Vector3"
+    "title": "A `Vector2` can be converted into a `Vector3`",
+    "description": "A `Vector2` can be converted into a `Vector3`"
   },
   {
     "patternId": "UNT0036",
@@ -183,5 +183,10 @@
     "patternId": "UNT0037",
     "title": "Inefficient method to get localPosition and localRotation",
     "description": "Inefficient method to get localPosition and localRotation"
+  },
+  {
+    "patternId": "UNT0038",
+    "title": "Cache `WaitForSeconds` invocations",
+    "description": "Cache `WaitForSeconds` invocations"
   }
 ]
