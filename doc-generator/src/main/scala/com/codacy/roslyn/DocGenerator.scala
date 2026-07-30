@@ -87,6 +87,7 @@ object DocGenerator {
       case "Correctness" => "ErrorProne"
       case "Performance" => "Performance"
       case "Type Safety" => "ErrorProne"
+      case "Readability" => "CodeStyle"
     }
   }
 

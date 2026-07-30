@@ -188,5 +188,25 @@
     "patternId": "UNT0038",
     "title": "Cache `WaitForSeconds` invocations",
     "description": "Cache `WaitForSeconds` invocations"
+  },
+  {
+    "patternId": "UNT0039",
+    "title": "Use `RequireComponent` attribute when self-invoking `GetComponent`",
+    "description": "Use `RequireComponent` attribute when self-invoking `GetComponent`"
+  },
+  {
+    "patternId": "UNT0040",
+    "title": "`GameObject.isStatic` is editor-only",
+    "description": "`GameObject.isStatic` is editor-only"
+  },
+  {
+    "patternId": "UNT0041",
+    "title": "Use `Animator.StringToHash` for repeated `Animator` method calls",
+    "description": "Use `Animator.StringToHash` for repeated `Animator` method calls"
+  },
+  {
+    "patternId": "UNT0042",
+    "title": "`Mesh` array property accessed in loop",
+    "description": "`Mesh` array property accessed in loop"
   }
 ]
