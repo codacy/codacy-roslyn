@@ -1,6 +1,6 @@
 {
   "name": "roslyn",
-  "version": "1.23.0",
+  "version": "1.26.0",
   "patterns": [
     {
       "patternId": "UNT0001",
@@ -170,12 +170,12 @@
     {
       "patternId": "UNT0034",
       "level": "Warning",
-      "category": "Performance"
+      "category": "CodeStyle"
     },
     {
       "patternId": "UNT0035",
       "level": "Warning",
-      "category": "Performance"
+      "category": "CodeStyle"
     },
     {
       "patternId": "UNT0036",
@@ -189,6 +189,26 @@
     },
     {
       "patternId": "UNT0038",
+      "level": "Warning",
+      "category": "Performance"
+    },
+    {
+      "patternId": "UNT0039",
+      "level": "Warning",
+      "category": "ErrorProne"
+    },
+    {
+      "patternId": "UNT0040",
+      "level": "Warning",
+      "category": "ErrorProne"
+    },
+    {
+      "patternId": "UNT0041",
+      "level": "Warning",
+      "category": "Performance"
+    },
+    {
+      "patternId": "UNT0042",
       "level": "Warning",
       "category": "Performance"
     }
