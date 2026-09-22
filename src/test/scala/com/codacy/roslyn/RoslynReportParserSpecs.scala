@@ -25,7 +25,8 @@ class RoslynReportParserSpecs extends AnyWordSpec with Matchers {
           message = Message(text = "Member 'FixedUpdate' does not access instance data and can be marked as static"),
           level = Level.Err,
           category = None,
-          location = LineLocation(line = 7)
+          location = LineLocation(line = 7),
+          sourceId = None
         ),
         Issue(
           patternId = Pattern.Id(value = "UNT0001"),
@@ -33,7 +34,8 @@ class RoslynReportParserSpecs extends AnyWordSpec with Matchers {
           message = Message(text = "The Unity message 'FixedUpdate' is empty."),
           level = Level.Warn,
           category = None,
-          location = LineLocation(line = 7)
+          location = LineLocation(line = 7),
+          sourceId = None
         ),
         Issue(
           patternId = Pattern.Id(value = "UNT0002"),
@@ -41,7 +43,8 @@ class RoslynReportParserSpecs extends AnyWordSpec with Matchers {
           message = Message(text = "Comparing tags using == is inefficient."),
           level = Level.Warn,
           category = None,
-          location = LineLocation(line = 13)
+          location = LineLocation(line = 13),
+          sourceId = None
         ),
         Issue(
           patternId = Pattern.Id(value = "UNT0013"),
@@ -50,7 +53,8 @@ class RoslynReportParserSpecs extends AnyWordSpec with Matchers {
             Message(text = "SerializeField attribute is invalid or redundant for property or field: 'publicField'."),
           level = Level.Err,
           category = None,
-          location = LineLocation(line = 9)
+          location = LineLocation(line = 9),
+          sourceId = None
         ),
         Issue(
           patternId = Pattern.Id(value = "UNT0013"),
@@ -60,7 +64,8 @@ class RoslynReportParserSpecs extends AnyWordSpec with Matchers {
           ),
           level = Level.Err,
           category = None,
-          location = LineLocation(line = 12)
+          location = LineLocation(line = 12),
+          sourceId = None
         ),
         Issue(
           patternId = Pattern.Id(value = "UNT0013"),
@@ -69,7 +74,8 @@ class RoslynReportParserSpecs extends AnyWordSpec with Matchers {
             Message(text = "SerializeField attribute is invalid or redundant for property or field: 'staticField'."),
           level = Level.Err,
           category = None,
-          location = LineLocation(line = 15)
+          location = LineLocation(line = 15),
+          sourceId = None
         ),
         Issue(
           patternId = Pattern.Id(value = "UNT0013"),
@@ -78,7 +84,8 @@ class RoslynReportParserSpecs extends AnyWordSpec with Matchers {
             Message(text = "SerializeField attribute is invalid or redundant for property or field: 'readonlyField'."),
           level = Level.Err,
           category = None,
-          location = LineLocation(line = 18)
+          location = LineLocation(line = 18),
+          sourceId = None
         )
       )
 

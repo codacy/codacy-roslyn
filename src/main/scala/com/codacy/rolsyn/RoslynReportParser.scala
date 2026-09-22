@@ -31,7 +31,8 @@ object RoslynReportParser {
         case _ => Level.Info
       },
       category = None,
-      location = LineLocation(line)
+      location = LineLocation(line),
+      sourceId = None
     )
     res.toSeq
   }
