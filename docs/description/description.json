@@ -208,5 +208,10 @@
     "patternId": "UNT0042",
     "title": "`Mesh` array property accessed in loop",
     "description": "`Mesh` array property accessed in loop"
+  },
+  {
+    "patternId": "UNT0043",
+    "title": "Possible typo in conditional compilation symbol",
+    "description": "Possible typo in conditional compilation symbol"
   }
 ]
